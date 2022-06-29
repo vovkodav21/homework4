@@ -1,6 +1,7 @@
-first_list = input().split()
-m = 0
-for i in range(1, len(a)-1):
-    if int(a[i-1]) < int(a[i]) and int(a[i]) > int(a[i+1]):
-        m += 1
-print(m)
+a = [12, 345, 98, 5, 9, 111]
+b = [111, 55, 43, 98, 12]
+c = []
+for value in b:
+    if value not in a:
+        c.append(value)
+print(c)
